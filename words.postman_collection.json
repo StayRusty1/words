@@ -1,0 +1,42 @@
+{
+  "info": {
+    "_postman_id": "5194549d-3db2-4bc0-9c19-6e0b3864aa72",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "14216265"
+  },
+  "item": [
+    {
+      "name": "http://localhost:8080/api/file",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "text/plain",
+            "type": "default"
+          }
+        ],
+        "body": {
+          "mode": "file",
+          "file": {
+            "src": "input.txt"
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/file",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "file"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
